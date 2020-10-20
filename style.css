@@ -2,7 +2,7 @@ body{
     font-family:'Roboto', sans-serif;
     font-size:14px;
     background-color:#F3F3F3;
-    width: 440px;
+    width: 400px;
     margin-left:auto;
     margin-right:auto;
 }
@@ -35,6 +35,10 @@ header .basic{
 header .highlight{
     background-color: #3BB3BD;
     border-radius: 4px;
+    width:100%;
+    color:#F3F3F3;
+    padding:10px 10px 10px 10px ;
+    margin-bottom:15px;
     
 }
 
@@ -52,13 +56,14 @@ header .highlight{
     margin-top:30px;
 }
 .firstLesson h3{
-    font-size:25px;
+    font-size:18px;
 }
 .firstLesson button {
     color:#66C4CB;
     background-color:white;
     border: 2px solid #E8F6F7;
     border-radius: 4px;
+    padding: 10px 20px 10px 20px;
 }
 .study{
     display:flex
@@ -84,6 +89,18 @@ header .highlight{
 .share .infoContent{
     float:right
 }
+.share ul {
+    list-style: none;
+    padding-inline-start: 0;
+  }
+  
+  .share ul li::before {
+    content: "\2022";
+    color:#FFA24D;
+    font-weight: bold;
+    display: inline-block; 
+    
+  }
 
 .camera{
     display:flex;
@@ -98,11 +115,24 @@ header .highlight{
     float:right
 }
 
+.camera ul {
+    list-style: none;
+    padding-inline-start: 0;
+  }
+  
+  .camera ul li::before {
+    content: "\2022";
+    color:#24BB36;
+    font-weight: bold;
+    display: inline-block; 
+    
+  }
+
 .getApp{
     background-color:#3BB3BD; 
     padding:25px;
     margin-top:30px;
-    height:250px;
+    height:180px;
 }
 .headline {
     display: flex
@@ -139,7 +169,7 @@ header .highlight{
 
    .box img{
        float:right;
-       width:200px;
+       width:150px;
    }
 footer{
     background-color:#3C4447; 
