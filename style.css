@@ -128,13 +128,13 @@ header .highlight{
     
   }
 
-.getApp{
+/* .getApp{
     background-color:#3BB3BD; 
     padding:25px;
     margin-top:30px;
     height:180px;
-}
-.headline {
+} */
+/* .headline {
     display: flex
 }
 .headline img {
@@ -165,12 +165,91 @@ header .highlight{
    display: inline-block;
    width: 80px;
    padding-right:10px;
-}
-
-   .box img{
-       float:right;
-       width:150px;
+} */
+   .getAppContainer{
+       display:flex;
+       justify-content: space-between;
+       align-items:flex-end;
+   
+       background-color:#3BB3BD; 
+       height:180px;
+       margin-top:30px;   
    }
+
+   .getAppContainer .screenMock{
+    width:125px; 
+   }
+
+   .getAppInfo{
+       padding-bottom:20px;
+       padding-left:20px;
+       width:70%;
+       height:160px;
+       color:white; 
+   }
+  .getAppHeadline{
+      display:flex;
+      justify-content:flex-start;
+      align-items:center;
+  }
+  .getAppHeadline h3{
+      font-weight:400;
+      padding-top:1px;
+      letter-spacing: 1px;
+      font-size:18px;
+  }
+  
+
+.getAppHeadline img {
+    width: 30px;
+    height:30px;
+    padding-right:10px;
+   }
+   .getAppInfo .getInfoText{
+    font-size:12px;
+    width:85%;
+    line-height:1.5;
+    font-weight:400;
+    
+}
+   
+.getAppInfo .downloadIcons img{
+    width: 100px;
+    padding-right:10px; 
+} 
+  
+   /* .getAppInfo {
+    float:left;
+    color:white; 
+    
+   }
+   
+    .getApp .getInfoText{
+        font-size:12px;
+        width:50%;
+    }
+
+    .getAppInfo .downloadIcons img{
+        width: 80px;
+        padding-right:10px; 
+   } 
+   .getAppHeadline img, h3{
+    display: inline-block;
+  
+}
+.getAppHeadline img {
+ width: 20px;
+ height:20px;
+}
+  
+    .getAppScreen {
+       float:right;
+   } 
+   .getAppScreen img{
+      
+       width:100px;
+       
+   }  */
 footer{
     background-color:#3C4447; 
     padding:25px;
