@@ -29,7 +29,7 @@ header .bottomButton {
   background-color: white;
   color: #66c4cb;
   font-weight: 600;
-  font-size:12px;
+  font-size: 12px;
 }
 header .topButton {
   background-color: #3bb3bd;
@@ -39,7 +39,7 @@ header .topButton {
   padding: 15px 15px;
   margin-bottom: 15px;
   font-weight: 500;
-  font-size:14px;
+  font-size: 14px;
 }
 
 .hero {
@@ -50,12 +50,12 @@ header .topButton {
   width: 100;
   height: 100;
 }
-.hero h2{
-    color:#3C4447;
+.hero h2 {
+  color: #3c4447;
 }
 header p {
-    color:#6F757B;
-    line-height: 1.5;
+  color: #6f757b;
+  line-height: 1.5;
 }
 .firstLesson {
   background-color: white;
@@ -64,7 +64,8 @@ header p {
 }
 .firstLesson h3 {
   font-size: 18px;
-  color:#3C4447;
+  color: #3c4447;
+  font-weight: 500;
 }
 .firstLesson button {
   color: #66c4cb;
@@ -75,26 +76,30 @@ header p {
 }
 .study {
   display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-bottom: 10px;
 }
 .study img {
-  float: left;
+  padding-right: 10px;
+  padding-top: 5px;
   width: 40px;
-  height: 40px;
+  height: 30px;
 }
-.study .infoContent {
-  float: right;
-}
+
 .share {
   display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-bottom: 10px;
 }
 .share img {
-  float: left;
-  width: 40px;
-  height: 40px;
+  padding-right: 10px;
+  padding-top: 5px;
+  width: 35px;
+  height: 35px;
 }
-.share .infoContent {
-  float: right;
-}
+
 .share ul {
   list-style: none;
   padding-inline-start: 0;
@@ -105,18 +110,20 @@ header p {
   color: #ffa24d;
   font-weight: bold;
   display: inline-block;
+  line-height: 1.5;
 }
 
 .camera {
   display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-bottom: 10px;
 }
 .camera img {
-  float: left;
-  width: 40px;
-  height: 40px;
-}
-.camera .infoContent {
-  float: right;
+  padding-right: 10px;
+  padding-top: 5px;
+  width: 35px;
+  height: 35px;
 }
 
 .camera ul {
@@ -129,6 +136,7 @@ header p {
   color: #24bb36;
   font-weight: bold;
   display: inline-block;
+  line-height: 1.5;
 }
 
 .getAppContainer {
@@ -186,20 +194,17 @@ header p {
 }
 footer {
   background-color: #3c4447;
-  margin-top:30px;
-  padding: 20px 30px 30px 30px ;
+  margin-top: 30px;
+  padding: 20px 30px 30px 30px;
   color: #c5cacc;
-  font-size:12px;
-  font-weight:400;
- 
+  font-size: 12px;
+  font-weight: 400;
 }
-footer p{
-    line-height:1.5;
+footer p {
+  line-height: 1.5;
 }
 footer a {
   text-decoration: none;
   color: #e8f6f7;
-  padding-right:10px;
+  padding-right: 10px;
 }
-
-
