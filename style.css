@@ -127,45 +127,7 @@ header .highlight{
     display: inline-block; 
     
   }
-
-/* .getApp{
-    background-color:#3BB3BD; 
-    padding:25px;
-    margin-top:30px;
-    height:180px;
-} */
-/* .headline {
-    display: flex
-}
-.headline img {
- float: left;
- width: 50px;
- height:50px;
- padding:10px;
-}
-.headline h3 {
-    float: right;
-    font-size:25px;
-    color:white;
-    padding-left:15px;
-
-   }
-   .box{
-       display:flex;
-   }
-   .box .boxInfo {
-       float:left
-   }
-   .box .boxInfo p{
-       line-height: 1.5;
-       padding-right:10px;
-       align-content: flex-start;
-   }
-   .box .boxInfo img {
-   display: inline-block;
-   width: 80px;
-   padding-right:10px;
-} */
+ 
    .getAppContainer{
        display:flex;
        justify-content: space-between;
@@ -217,39 +179,6 @@ header .highlight{
     width: 100px;
     padding-right:10px; 
 } 
-  
-   /* .getAppInfo {
-    float:left;
-    color:white; 
-    
-   }
-   
-    .getApp .getInfoText{
-        font-size:12px;
-        width:50%;
-    }
-
-    .getAppInfo .downloadIcons img{
-        width: 80px;
-        padding-right:10px; 
-   } 
-   .getAppHeadline img, h3{
-    display: inline-block;
-  
-}
-.getAppHeadline img {
- width: 20px;
- height:20px;
-}
-  
-    .getAppScreen {
-       float:right;
-   } 
-   .getAppScreen img{
-      
-       width:100px;
-       
-   }  */
 footer{
     background-color:#3C4447; 
     padding:25px;
