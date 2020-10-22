@@ -52,9 +52,20 @@
 			display: inline !important;
 		}
 		
-		/* Button hover colour change */
-		.CTA:hover {
-			background-color: #5FDBC4 !important;
+	    .share_bullets li::before {
+			content: "\2022";
+  			color: #ffa24d;
+  			font-weight: bold;
+  			display: inline-block;
+  			line-height: 1.5;
+		}
+
+		.camera_bullets li::before {
+			content: "\2022";
+  			color: #24bb36;
+  			font-weight: bold;
+  			display: inline-block;
+  			line-height: 1.5;
 		}
 
 
@@ -98,20 +109,22 @@
 				padding-bottom: 30px !important;
 			}
 
+			.CTA_LESSON_wrap {
+				padding-left: 100px !important;
+				padding-right: 30px !important;
+				padding-bottom: 30px !important;
+			}
+
 			.footer {
 				padding-left: 30px !important;
 				padding-right: 30px !important;
 			}
 
-			.number_wrap {
+			.icon_wrap {
 				padding-left: 30px !important;
 				padding-right: 30px !important;
 			}
 
-			.unsubscribe {
-				padding-left: 30px !important;
-				padding-right: 30px !important;
-			}
 	
 		}
 
@@ -173,7 +186,7 @@
 
 						<!-- HERO SUBTEXT -->
 						<tr>
-							<td class="p" align="left" bgcolor="#FFFFFF" style="padding-top: 0px; padding-right: 50px; padding-bottom: 50px; padding-left: 50px; font-size:18; line-height: 27px; font-weight: 400; color:#6f757b;">
+							<td class="p" align="left" bgcolor="#FFFFFF" style="padding-top: 0px; padding-right: 50px; padding-bottom: 50px; padding-left: 50px; font-size:18; line-height: 27px; font-weight: 400; color:#3c4447;">
 								Almost time to meet {tutor_name}! Your connection with your tutor
           						 will be the key to your success. Prepare to introduce yourself, 
            						share your learning preferences, and begin your english journey!
@@ -182,12 +195,12 @@
 
 						<!-- HERO CTA FIRST -->
 						<tr>
-							<td class="CTA_wrap" bgcolor="#FFFFFF" align="center" style="padding-top: 0px; padding-right: 50px; padding-bottom: 50px; padding-left: 50px;" >
+							<td class="CTA_wrap" bgcolor="#FFFFFF" align="center" style="padding-top: 0px; padding-right: 50px; padding-bottom: 20px; padding-left: 50px;" >
                             <table>
 								<!-- //BUTTON-->
 								<tr>
-									<td class="CTA" alig="center" style="border-radius: 0px; padding-top: 0px; padding-right: 15px; padding-bottom: 20px; padding-left: 15px;" bgcolor="#3bb3bd">
-                                    <link href="#" style="color:#FFFFFF; font-size:16px; font-weight: 500; text-align: center; text-decoration:none; border-radius: 0px; display: inline-block;">Join the lesson</link>
+									<td class="CTA" width="600px" height="40px" align="center" bgcolor="#3bb3bd" style="border-radius: 6px; padding-top: 10px; padding-right: 15px; padding-bottom: 10px; padding-left: 15px;">
+                                    <a href="#" style="color:#FFFFFF; font-size:18px; font-weight: 500; text-align: center; text-decoration:none;">Join the lesson</a>
 									</td>
 								</tr>
 								<!-- BUTTON//-->
@@ -201,8 +214,8 @@
                             <table>
 								<!-- //BUTTON-->
 								<tr>
-									<td class="CTA" alig="center" style="border-radius: 0px; padding-top: 0px; padding-right: 15px; padding-bottom: 20px; padding-left: 15px;" bgcolor="#3bb3bd">
-                                    <link href="#" target="_blank"style="color:#FFFFFF; font-size:16px; font-weight: 500; text-align: center; text-decoration:none; border-radius: 0px; display: inline-block;">We didn't plan this lesson</link>
+									<td class="CTA" alig="center" style="padding-top: 0px; padding-right: 15px; padding-bottom: 20px; padding-left: 15px;">
+                                    <a href="#" target="_blank" style="color:#66c4cb; font-size:18px; font-weight: 500; text-align: center; text-decoration:none;">We didn't plan this lesson</a>
 									</td>
 								</tr>
 								<!-- BUTTON//-->
@@ -223,7 +236,7 @@
 						<!-- FIRST LESSON HEADER -->
 
 						<tr>
-							<td class="first_lesson_header" align="left" bgcolor="#FFFFFF" style="padding-top: 20px; padding-right: 50px; padding-bottom: 20px; padding-left: 50px; font-size:28px; line-height: 43px; font-weight: 700; color:#3c4447;">
+							<td class="first_lesson_header" align="left" bgcolor="#FFFFFF" style="padding-top: 40px; padding-right: 50px; padding-bottom: 30px; padding-left: 70px; font-size:22px; line-height: 43px; font-weight: 700; color:#3c4447;">
 								Get ready for your first lesson
 							</td>
 						</tr>
@@ -231,20 +244,20 @@
 						<!-- STUDY ICON & CONTENT -->
 						
 						<tr>
-							<td class="number_wrap" align="left" bgcolor="#FFFFFF" style="padding-top: 0px; padding-right: 50px; padding-bottom: 20px; padding-left: 50px;">
+							<td class="icon_wrap" align="left" bgcolor="#FFFFFF" style="padding-top: 0px; padding-right: 50px; padding-bottom: 0px; padding-left: 50px;">
                             <table>
 								<tbody>
 									<tr>
-									<td class="number" width="50" height="50" bgcolor="#FFFFFF" style="padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px;
+									<td class="icon" width="50" height="50" bgcolor="#FFFFFF" style="padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px;
 									display:inline-block; text-align:center;">
-                                     <img src="assets/icon-study.png">
+                                     <img src="assets/icon-study.png" width="40px">
 									</td>
-									<td class="number_header" align="left" bgcolor="#FFFFFF" style="padding-top: 0px; padding-right: 50px; padding-bottom: 0px; padding-left: 20px;
+									<td class="icon_header" align="left" bgcolor="#FFFFFF" style="padding-top: 0px; padding-right: 50px; padding-bottom: 0px; padding-left: 5px;
 									text-align:left;">
-										1. Take your placement test
-										<br></br>
-										Your results will help your tutor create
-			the perfect English plan for you
+										<h2 style="color:#3c4447; font-size:18px; font-weight:500;">1. Take your placement test</h2>
+									
+										<p>Your results will help your tutor create
+											the perfect English plan for you</p>
 			
 									</td>
 								</tr>
@@ -255,12 +268,12 @@
 
 						<!-- STUDY CTA -->
 						<tr>
-							<td class="CTA_wrap" bgcolor="#FFFFFF" align="left" style="padding-top: 0px; padding-right: 50px; padding-bottom: 50px; padding-left: 130px;" >
+							<td class="CTA_LESSON_wrap" bgcolor="#FFFFFF" align="left" style="padding-top: 0px; padding-right: 50px; padding-bottom: 20px; padding-left: 110px;" >
                             <table>
 								<!-- //BUTTON-->
 								<tr>
-									<td class="CTA" alig="center" style="border-radius: 0px; padding-top: 0px; padding-right: 15px; padding-bottom: 20px; padding-left: 15px;" bgcolor="#3bb3bd">
-                                    <link href="#" target="_blank"style="color:#FFFFFF; font-size:16px; font-weight: 500; text-align: center; text-decoration:none; border-radius: 0px; display: inline-block;">Take placement test</link>
+									<td class="CTA" width="180px" align="center" style="border-radius: 6px; border: 2px solid #e8f6f7; padding-top: 10px; padding-right: 15px; padding-bottom: 10px; padding-left: 15px;">
+                                    <a href="#" target="_blank"style="color: #3BB3BD; font-size:16px; font-weight: 500; text-align: center; text-decoration:none;">Take placement test</a>
 									</td>
 								</tr>
 								<!-- BUTTON//-->
@@ -271,21 +284,20 @@
 						<!-- SHARE ICON & CONTENT -->
 						
 						<tr>
-							<td class="number_wrap" align="left" bgcolor="#FFFFFF" style="padding-top: 0px; padding-right: 50px; padding-bottom: 20px; padding-left: 50px;">
+							<td class="icon_wrap" align="left" bgcolor="#FFFFFF" style="padding-top: 0px; padding-right: 50px; padding-bottom: 20px; padding-left: 50px;">
                             <table>
 								<tbody>
 									<tr>
-									<td class="number" width="50" height="50" bgcolor="#FFFFFF" style="padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px;
+									<td class="icon" width="50" height="50" bgcolor="#FFFFFF" style="padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px;
 									display:inline-block; text-align:center;">
-                                     <img src="assets/icon-share.png">
+                                     <img src="assets/icon-share.png" width="40px">
 									</td>
-									<td class="number_header" align="left" bgcolor="#FFFFFF" style="padding-top: 0px; padding-right: 50px; padding-bottom: 0px; padding-left: 20px;
+									<td class="icon_header" align="left" bgcolor="#FFFFFF" style="padding-top: 0px; padding-right: 50px; padding-bottom: 0px; padding-left: 5px;
 									text-align:left;">
-										2. Prepare to share
-										<br></br>
-										Tell your tutor about your preferences so they can 
-			personalize your lesson for you. Be specific!
-			<ul>
+										<h2 style="color:#3c4447; font-size:18px; font-weight:500;">2. Prepare to share</h2>
+										<p>Tell your tutor about your preferences so they can 
+											personalize your lesson for you. Be specific!</p>
+			<ul  class="share_bullets" style="list-style: none; padding-inline-start: 0;">
 				<li> What are your goal and interests?</li>
 				<li> How can your tutor help keep you motivated?</li>
 				<li> What are you want to focus on in your lesson?</li>
@@ -301,21 +313,21 @@
 						<!-- CAMERA ICON & CONTENT -->
 						
 						<tr>
-							<td class="number_wrap" align="left" bgcolor="#FFFFFF" style="padding-top: 0px; padding-right: 50px; padding-bottom: 20px; padding-left: 50px;">
+							<td class="icon_wrap" align="left" bgcolor="#FFFFFF" style="padding-top: 0px; padding-right: 50px; padding-bottom: 0px; padding-left: 50px;">
                             <table>
 								<tbody>
 									<tr>
-									<td class="number" width="50" height="50" bgcolor="#FFFFFF" style="padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px;
+									<td class="icon" width="50" height="50" bgcolor="#FFFFFF" style="padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px;
 									display:inline-block; text-align:center;">
-                                     <img src="assets/icon-camera.png">
+                                     <img src="assets/icon-camera.png" width="40px">
 									</td>
-									<td class="number_header" align="left" bgcolor="#FFFFFF" style="padding-top: 0px; padding-right: 50px; padding-bottom: 0px; padding-left: 20px;
+									<td class="icon_header" align="left" bgcolor="#FFFFFF" style="padding-top: 0px; padding-right: 50px; padding-bottom: 0px; padding-left: 5px;
 									text-align:left;">
-										3. Meet in Preply Space, your online classroom
-										<br></br>
-										You can explore Preply Space anytime before your lesson,
-			or join at lesson time.
-			<ul>
+										<h2 style="color:#3c4447; font-size:18px; font-weight:500;">3. Meet in Preply Space, your online classroom</h2>
+										
+										<p>You can explore Preply Space anytime before your lesson,
+											or join at lesson time.</p>
+			<ul class="camera_bullets" style="list-style: none; padding-inline-start: 0;" >
 				<li> Video chat, send files and share your screen</li>
 				<li> Find lesson msterials, vocab and homework</li>
 			</ul>
@@ -329,12 +341,12 @@
 
 						<!-- CAMERA CTA -->
 						<tr>
-							<td class="CTA_wrap" bgcolor="#FFFFFF" align="left" style="padding-top: 0px; padding-right: 50px; padding-bottom: 50px; padding-left: 130px;" >
+							<td class="CTA_LESSON_wrap" bgcolor="#FFFFFF" align="left" style="padding-top: 0px; padding-right: 50px; padding-bottom: 50px; padding-left: 110px;" >
                             <table>
 								<!-- //BUTTON-->
 								<tr>
-									<td class="CTA" alig="center" style="border-radius: 0px; padding-top: 0px; padding-right: 15px; padding-bottom: 20px; padding-left: 15px;" bgcolor="#3bb3bd">
-                                    <link href="#" target="_blank"style="color:#FFFFFF; font-size:16px; font-weight: 500; text-align: center; text-decoration:none; border-radius: 0px; display: inline-block;">Enter classroom</link>
+									<td class="CTA" width="180px" align="center" style="border-radius: 6px; border: 2px solid #e8f6f7; padding-top: 10px; padding-right: 15px; padding-bottom: 10px; padding-left: 15px;">
+                                    <a href="#" target="_blank"style="color: #3BB3BD; font-size:16px; font-weight: 500; text-align: center; text-decoration:none;">Enter classroom</a>
 									</td>
 								</tr>
 								<!-- BUTTON//-->
@@ -350,26 +362,68 @@
 						</tr>
 				   
 
-						<!-- GET THE APP BLOCK -->
+						<!-- GET APP BLOCK -->
 						<tr>
-							<td class="number_wrap" align="left" bgcolor="#3bb3bd" style="padding-top: 20px; padding-right: 0px; padding-bottom: 0px; padding-left: 50px;">
-                            <table>
+							<td class="icon_wrap" align="left" bgcolor="#3bb3bd" style="padding-top: 20px; padding-right: 0px; padding-bottom: 0px; padding-left: 50px;">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0" >
 								<tbody>
+									
+									<!-- GET APP TEXT CONTENT -->
 									<tr>
-									<td class="number" width="300"  style="padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px;
+									<td class="icon" width="300"  style="padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px;
 									display:inline-block; text-align:left;">
-                                    <img src="assets/preply-logo-border.png">
-									<h3>Get the app!</h3>
-									<p>Learn on the go! Take lessons, message your tutor,
+                            
+                                   <!-- GET APP TEXT ICON & HEADER -->
+									<table>
+										<tbody>
+											<tr>
+											<td class="icon" width="50" height="50" style="padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px;
+											display:inline-block; text-align:center;">
+											 <img src="assets/preply-logo-border.png">
+											</td>
+											<td class="icon_header" align="left" style="padding-top: 0px; padding-right: 50px; padding-bottom: 5px; padding-left: 0px; color:#FFFFFF;
+											font-size:25px;text-align:left;">
+											Get the app!
+											</td>
+										</tr>
+										</tbody>
+									</table> 
+
+									<!-- GET APP TEXT PARAGRAPH-->
+									<table>
+										<tbody>
+									<tr>
+										<td align="left"  style="padding-left:10px;padding-right:0px;padding-bottom:20px; font-size:18px; line-height: 27px; font-weight: 400; color:#F3F3F3;">
+											Learn on the go! Take lessons, message your tutor,
 										and study vocab in the Preply app.
-									 </p>
-									 <a href="https://apps.apple.com/us/app/preply-learn-languages/id1352790442" target="_blank">
-									 <img src="assets/download-app-store.png"></a>
-									 <a href="https://play.google.com/store/apps/details?id=com.preply&hl=en_US&gl=US" target="_blank">
-									 <img src="assets/download-google-play.png">
-									</a>
+										</td>
+									</tr>
+								</tbody>
+								</table>
+								<!-- GET APP DOWNLOAD ICONS-->
+								<table>
+									<tbody>
+										<tr>
+										<td class="icon" style="padding-top: 5px; padding-right: 0px; padding-bottom: 5px; padding-left: 5px;
+										display:inline-block; text-align:center;">
+										 <a href="https://apps.apple.com/us/app/preply-learn-languages/id1352790442" target="_blank">
+											<img src="assets/download-app-store.png">
+										 </a>
+										</td>
+										<td class="icon_header"align="left" style="padding-top: 0px; padding-right: 50px; padding-bottom: 0px; padding-left: 10px;
+										text-align:left;">
+										<a href="https://play.google.com/store/apps/details?id=com.preply&hl=en_US&gl=US" target="_blank">
+											<img src="assets/download-google-play.png">
+										</a>
+										</td>
+									</tr>
+									</tbody>
+								</table> 
+
 									</td>
-									<td class="number_header" align="right"  style="padding-top: 0px;  padding-bottom: 0px; padding-left: 20px;
+
+									<!-- GET APP SCREEN MOCKUP -->
+									<td class="icon_header" align="right"  style="padding-top: 15px;  padding-bottom: 0px; padding-left: 20px;
 									text-align:right;">
 										<img src="assets/screen-mockup.png" alt="Screen mockup" width="200" height="auto">
 			
@@ -389,7 +443,7 @@
 
 						<!-- FOOTER BLOCK -->
 						<tr>
-							<td class="p" align="left" bgcolor="#FFFFFF" style="padding-top: 50px; padding-right: 150px; padding-bottom: 50px; padding-left: 60px; font-size:18; line-height: 27px; font-weight: 400; color:#6f757b;">
+							<td class="p" align="left" bgcolor="#3C4447" style="padding-top: 50px; padding-right: 150px; padding-bottom: 50px; padding-left: 60px; font-size:18; line-height: 27px; font-weight: 400; color:#C5CACC;">
 								Please do not forward or share this email as it is intended to be used only by you. 
 								<br></br>
 								You received this email because you are registered on Preply.com with the email address vlad.s@preply.com
@@ -398,8 +452,8 @@
 								
 			301, Brookline, MA, 02446, USA
 								<br></br>
-								<a href="#" target="_blank" style="padding-right:30px;">Update preferences<a>
-								<a href="#" target="_blank">Unsubscribe from this list</a>
+								<a href="#" target="_blank" style="padding-right:30px; text-decoration:none;color:#FFFFFF;">Update preferences<a>
+								<a href="#" target="_blank" style="text-decoration:none; color:#FFFFFF;">Unsubscribe from this list</a>
 							</td>
 						</tr>
 
